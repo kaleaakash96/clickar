@@ -17,7 +17,7 @@ AFRAME.registerComponent('markerhandler', {
         
         
         const popup = (() => {
- open( "http://xahlee.info/js/js.html",
+ open( "https://instagram.com/zishanshaikh750?igshid=13aluwf6lx65",
  "_blank",
  "width=640,height=480,menubar=no,scrollbar=no"); }
 );
