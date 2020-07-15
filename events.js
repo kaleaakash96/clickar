@@ -3,10 +3,23 @@ AFRAME.registerComponent('markerhandler', {
      const animatedMarker = document.querySelector("#animated-marker");
      const aEntity = document.querySelector("#animated-model");
 
-animatedMarker.addEventListener('click' ,() = > {
-    window.open("google.com",'_blank');
-});
+// animatedMarker.addEventListener('click' ,() = > {
+//     window.open("google.com",'_blank');
+// });
 
+     
+     
+     animatedMarker.addEventListener( 'load', function ( event ) {
+
+        scope.manager.itemEnd( https://www.google.com );
+        onLoad( this );
+
+      }, false );
+     
+     
+     
+     
+     
 
 });
 
